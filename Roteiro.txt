@@ -1,0 +1,14 @@
+Roteiro do que está acontecendo em cada branch
+
+*4_CharacterService
+
+1 - Criado a Pasta "Services"
+2 - Dentro da Pasta "Service" uma outra pasta chamada "CharacterService"
+3 - Dentro da Pasta "CharacterService" uma interface chamada "ICharacterService.cs"
+4 - Dentro da Pasta "CharacterService" uma classe chamada "CharacterService.cs"
+5 - Pegou os métodos dentro do CharacterController e substitui no CharacterService.cs
+6  - Apagou a lista de persongem que tinha no CharacterController e colou no CharacterService
+7 - Criado o construtor no CharacterController e os parâmetros dos serviços dentro
+8 - Dentro de cada método do controller foi invocado os serviços
+9 - Injeção de dependência dentro do Program.cs
+STATUS: Até aqui está funcionando perfeitamente.

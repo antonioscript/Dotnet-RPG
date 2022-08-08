@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Dotnet_RPG.Services.CharacterService;
 using Microsoft.AspNetCore.Mvc;
 //using Dotnet_RPG.Models; uso global
 
@@ -11,32 +12,32 @@ namespace Dotnet_RPG.Controllers
     [Route("api/[controller]")]
     public class CharacterController : ControllerBase
     {
-        private static List<Character> characters = new List<Character>()
+        private readonly ICharacterService _characterService;
+        public CharacterController(ICharacterService characterService)
         {
-            new Character(),
-            new Character {Id = 1, Name = "Sam "}
-        };
-        
+            _characterService = characterService;
+        }
+
+
         //Pegar todos os personagens
         [HttpGet("GetAll")]
         public ActionResult<List<Character>> Get()
         {
-            return Ok(characters);
+            return Ok(_characterService.GetAllCharacters());
         }
 
         //Pegar personagem por Id Específico
         [HttpGet("{id}")]
         public ActionResult<List<Character>> GetSingle(int id)
         {
-            return Ok(characters.FirstOrDefault(c => c.Id == id));
+            return Ok(_characterService.GetCharacterById(id));
         }
 
         //Método Post
         [HttpPost]
         public ActionResult<List<Character>> AddCharacter(Character newCharacter)
         {
-            characters.Add(newCharacter);
-            return Ok(characters);
+            return Ok(_characterService.AddCharacter(newCharacter));
         }
     }
 }
