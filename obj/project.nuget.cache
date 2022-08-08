@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qxy+Jv3comPRiPr/w2chQ4quK/yWsOVjTd4BHKwD8+GvkU3vxSw2JR90d64SeplnahYVtht4Ush2Xukn+8mQuA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\Dotnet-RPG.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Antônio Jr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Antônio Jr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Antônio Jr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Antônio Jr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Antônio Jr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Antônio Jr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
