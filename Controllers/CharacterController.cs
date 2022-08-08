@@ -11,12 +11,24 @@ namespace Dotnet_RPG.Controllers
     [Route("api/[controller]")]
     public class CharacterController : ControllerBase
     {
-        private static Character knight = new Character();
-        
-        [HttpGet]
-        public ActionResult<Character> Get()
+        private static List<Character> characters = new List<Character>()
         {
-            return Ok(knight);
+            new Character(),
+            new Character {Name = "Sam "}
+        };
+        
+        //Pegar todos os personagens
+        [HttpGet("GetAll")]
+        public ActionResult<List<Character>> Get()
+        {
+            return Ok(characters);
+        }
+
+        //Pegar personagem por Id Específico
+        [HttpGet]
+        public ActionResult<List<Character>> GetSingle()
+        {
+            return Ok(characters[0]);
         }
     }
 }
