@@ -14,7 +14,7 @@ namespace Dotnet_RPG.Controllers
         private static List<Character> characters = new List<Character>()
         {
             new Character(),
-            new Character {Name = "Sam "}
+            new Character {Id = 1, Name = "Sam "}
         };
         
         //Pegar todos os personagens
@@ -25,10 +25,10 @@ namespace Dotnet_RPG.Controllers
         }
 
         //Pegar personagem por Id Específico
-        [HttpGet]
-        public ActionResult<List<Character>> GetSingle()
+        [HttpGet("{id}")]
+        public ActionResult<List<Character>> GetSingle(int id)
         {
-            return Ok(characters[0]);
+            return Ok(characters.FirstOrDefault(c => c.Id == id));
         }
     }
 }
