@@ -26,4 +26,9 @@ STATUS: Até aqui está funcionando perfeitamente.
 4 - Adicionamos também dentro do controller
 STATUS: Até aqui está funcionando perfeitamente.
 
-
+*7_Dto
+1 - Criamos uma pasta na raíz chamada "Dtos"
+2 - Dentro dela, outra pasta chamada "Character"
+3 - E duas classes "GetCharacterDto.cs" e "AddCharacterDto"
+4 - Modificamos a Interface, o Service e o controller
+STATUS: O arquivo não está funcionando, pois é preciso configurar o AutoMappe[disableRipple]="true"

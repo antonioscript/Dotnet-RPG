@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Dotnet_RPG.Dtos.Character;
 using Dotnet_RPG.Services.CharacterService;
 using Microsoft.AspNetCore.Mvc;
 //using Dotnet_RPG.Models; uso global
@@ -21,21 +22,21 @@ namespace Dotnet_RPG.Controllers
 
         //Pegar todos os personagens
         [HttpGet("GetAll")]
-        public async Task<ActionResult<ServiceResponse<List<Character>>>> Get()
+        public async Task<ActionResult<ServiceResponse<List<GetCharacterDto>>>> Get()
         {
             return Ok(await _characterService.GetAllCharacters());
         }
 
         //Pegar personagem por Id Específico
         [HttpGet("{id}")]
-        public async Task<ActionResult<ServiceResponse<List<Character>>>> GetSingle(int id)
+        public async Task<ActionResult<ServiceResponse<List<GetCharacterDto>>>> GetSingle(int id)
         {
             return Ok(await _characterService.GetCharacterById(id));
         }
 
         //Método Post
         [HttpPost]
-        public async Task<ActionResult<ServiceResponse<List<Character>>>> AddCharacter(Character newCharacter)
+        public async Task<ActionResult<ServiceResponse<List<GetCharacterDto>>>> AddCharacter(AddCharacterDto newCharacter)
         {
             return Ok(await _characterService.AddCharacter(newCharacter));
         }
