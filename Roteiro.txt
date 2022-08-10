@@ -19,5 +19,11 @@ STATUS: Até aqui está funcionando perfeitamente.
 3 - Adicionamos "Task" também no controller e async
 4 - No controller também adicionamos o "await"
 
+*6_ProperService
+1 - Dentro de Models adicionamos uma classe "ServiceResponse.cs"
+2 - Adicionamos ServiceResponse dentro da interface ICharacterService
+3 - Fizemos a mesma modificação no CharacterService com algumas informações adicionais
+4 - Adicionamos também dentro do controller
+STATUS: Até aqui está funcionando perfeitamente.
 
 

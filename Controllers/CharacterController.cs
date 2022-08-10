@@ -21,21 +21,21 @@ namespace Dotnet_RPG.Controllers
 
         //Pegar todos os personagens
         [HttpGet("GetAll")]
-        public async Task<ActionResult<List<Character>>> Get()
+        public async Task<ActionResult<ServiceResponse<List<Character>>>> Get()
         {
             return Ok(await _characterService.GetAllCharacters());
         }
 
         //Pegar personagem por Id Específico
         [HttpGet("{id}")]
-        public async Task<ActionResult<List<Character>>> GetSingle(int id)
+        public async Task<ActionResult<ServiceResponse<List<Character>>>> GetSingle(int id)
         {
             return Ok(await _characterService.GetCharacterById(id));
         }
 
         //Método Post
         [HttpPost]
-        public async Task<ActionResult<List<Character>>> AddCharacter(Character newCharacter)
+        public async Task<ActionResult<ServiceResponse<List<Character>>>> AddCharacter(Character newCharacter)
         {
             return Ok(await _characterService.AddCharacter(newCharacter));
         }
