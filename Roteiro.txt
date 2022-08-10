@@ -12,3 +12,12 @@ Roteiro do que está acontecendo em cada branch
 8 - Dentro de cada método do controller foi invocado os serviços
 9 - Injeção de dependência dentro do Program.cs
 STATUS: Até aqui está funcionando perfeitamente.
+
+*5_Asynchronous_Calls
+1 - Adicionamos o "Task<>" em cada parte da interface
+2 - Também adicionas "Task<>" no Service, mas colocamos o "async" antes
+3 - Adicionamos "Task" também no controller e async
+4 - No controller também adicionamos o "await"
+
+
+
