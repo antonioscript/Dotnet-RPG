@@ -32,3 +32,11 @@ STATUS: Até aqui está funcionando perfeitamente.
 3 - E duas classes "GetCharacterDto.cs" e "AddCharacterDto"
 4 - Modificamos a Interface, o Service e o controller
 STATUS: O arquivo não está funcionando, pois é preciso configurar o AutoMappe[disableRipple]="true"
+
+*8_AutoMapper
+1 - Instalamos o AutoMapper
+2 - Injeção do AutoMapper no "Program.cs"
+3 - Criamos um construtor em "CharacterService" e colocamos o AutoMapper como parâmetro
+4 - Fizemos algumas modificações dentro dos métodos de "CharacterService"
+5 - Na Raiz do Programa criamos um arquivo "AutoMapperProfile"
+
