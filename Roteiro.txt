@@ -58,7 +58,7 @@ STATUS: Até aqui está funcionando perfeitamente.
 3 - E anexamos no Controller
 STATUS: Até aqui está funcionando perfeitamente.
 
-*12_EntityFramewok
+*11_EntityFramewok
 1 - Instalamos o "Microsoft.EntityFrameworkCore.SqlServer"
 2 - Instalamos o "Microsoft.EntityFrameworkCore.Design"
 3 - Criamos uma pasta chamada Data
@@ -66,4 +66,11 @@ STATUS: Até aqui está funcionando perfeitamente.
 5 - Criado a Conexão "ConnectionString" no "appsettings.json"
 6 - E Colocamos a conexão por meio de injeção em "Program.cs"
 
+*12_Migrations
+1 - Criamos a primeira migração
+
+*13_Get_Implementations
+1 - Adicionamos DataContext no Service
+2 - Modificamos o método Get no Service
+3 - Adicionamos no Banco de Dados alguns personagens manualmente
 
