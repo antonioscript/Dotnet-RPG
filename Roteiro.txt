@@ -47,5 +47,10 @@ STATUS: O arquivo não está funcionando, pois é preciso configurar o AutoMappe
 4 - E colocamos no controller
 STATUS: O arquivo não está funcionando, pois é preciso configurar algo na próxima branch
 
+*10_Put_With_AutoMapper
+1 - Modificamos o CharacterService
+2 - MOdificamos o AutoMapperProfile
+STATUS: Até aqui está funcionando perfeitamente.
+
 
 
