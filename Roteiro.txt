@@ -58,5 +58,9 @@ STATUS: Até aqui está funcionando perfeitamente.
 3 - E anexamos no Controller
 STATUS: Até aqui está funcionando perfeitamente.
 
-
+*12_EntityFramewok
+1 - Instalamos o "Microsoft.EntityFrameworkCore.SqlServer"
+2 - Instalamos o "Microsoft.EntityFrameworkCore.Design"
+3 - Criamos uma pasta chamada Data
+4 - Dentro da pasta Data adicionaoms o arquivo "DataContext.cs"
 
