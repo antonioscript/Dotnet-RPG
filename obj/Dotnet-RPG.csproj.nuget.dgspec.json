@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Antônio Jr\\projects\\Dotnet-RPG\\Dotnet-RPG.csproj": {}
+    "C:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\Dotnet-RPG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Antônio Jr\\projects\\Dotnet-RPG\\Dotnet-RPG.csproj": {
+    "C:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\Dotnet-RPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antônio Jr\\projects\\Dotnet-RPG\\Dotnet-RPG.csproj",
+        "projectUniqueName": "C:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\Dotnet-RPG.csproj",
         "projectName": "Dotnet-RPG",
-        "projectPath": "C:\\Users\\Antônio Jr\\projects\\Dotnet-RPG\\Dotnet-RPG.csproj",
+        "projectPath": "C:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\Dotnet-RPG.csproj",
         "packagesPath": "C:\\Users\\Antônio Jr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antônio Jr\\projects\\Dotnet-RPG\\obj\\",
+        "outputPath": "C:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Antônio Jr\\AppData\\Roaming\\NuGet\\NuGet.Config"

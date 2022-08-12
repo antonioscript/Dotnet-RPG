@@ -16,5 +16,8 @@ namespace Dotnet_RPG.Services.CharacterService
 
         //POST - Adicionar Persongagem
         Task<ServiceResponse<List<GetCharacterDto>>> AddCharacter(AddCharacterDto newCharacter);
+
+        //PUT - Atualizar o Personagem
+        Task<ServiceResponse<GetCharacterDto>> UpdateCharacter(UpdateCharacterDto updatedCharacter);
     }
 }
