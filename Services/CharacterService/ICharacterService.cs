@@ -19,5 +19,8 @@ namespace Dotnet_RPG.Services.CharacterService
 
         //PUT - Atualizar o Personagem
         Task<ServiceResponse<GetCharacterDto>> UpdateCharacter(UpdateCharacterDto updatedCharacter);
+
+        //Delete - Apagar Personagem
+        Task<ServiceResponse<List<GetCharacterDto>>> DeleteCharacter(int id);
     }
 }

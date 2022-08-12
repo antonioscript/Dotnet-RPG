@@ -52,5 +52,11 @@ STATUS: O arquivo não está funcionando, pois é preciso configurar algo na pr�
 2 - MOdificamos o AutoMapperProfile
 STATUS: Até aqui está funcionando perfeitamente.
 
+*11_Delete_Method
+1 - Adicionamos o método na interface
+2 - Implementamos no Service
+3 - E anexamos no Controller
+STATUS: Até aqui está funcionando perfeitamente.
+
 
 
