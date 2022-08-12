@@ -30,7 +30,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Humanizer.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -143,7 +143,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.8"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/net6.0/_._": {}
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -2085,11 +2085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\Dotnet-RPG.csproj",
+      "projectUniqueName": "C:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\Dotnet-RPG.csproj",
       "projectName": "Dotnet-RPG",
-      "projectPath": "c:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\Dotnet-RPG.csproj",
+      "projectPath": "C:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\Dotnet-RPG.csproj",
       "packagesPath": "C:\\Users\\Antônio Jr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\obj\\",
+      "outputPath": "C:\\Users\\Antônio Jr\\Projects\\Dotnet-RPG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Antônio Jr\\AppData\\Roaming\\NuGet\\NuGet.Config"

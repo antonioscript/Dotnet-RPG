@@ -63,4 +63,6 @@ STATUS: Até aqui está funcionando perfeitamente.
 2 - Instalamos o "Microsoft.EntityFrameworkCore.Design"
 3 - Criamos uma pasta chamada Data
 4 - Dentro da pasta Data adicionaoms o arquivo "DataContext.cs"
+5 - Criado a Conexão "ConnectionString" no "appsettings.json"
+6 - E Colocamos a conexão por meio de injeção em "Program.cs"
 
