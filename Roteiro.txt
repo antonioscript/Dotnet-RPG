@@ -66,3 +66,4 @@ STATUS: Até aqui está funcionando perfeitamente.
 5 - Criado a Conexão "ConnectionString" no "appsettings.json"
 6 - E Colocamos a conexão por meio de injeção em "Program.cs"
 
+
