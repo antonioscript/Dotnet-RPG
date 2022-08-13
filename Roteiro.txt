@@ -82,3 +82,9 @@ STATUS: Até aqui está funcionando perfeitamente.
 
 *16_Delete_Implementations
 1 - Modificamos o método Delete no Service
+
+*17_The_User_Model
+1 - Adicionamos uma classe "User.cs" na pasta Models
+2 - Atualizamos o arquivo "DataContext.cs"
+3 - Fizemos uma migration
+4 - E atualizamos o banco de Dados
