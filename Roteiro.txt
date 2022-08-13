@@ -88,3 +88,9 @@ STATUS: Até aqui está funcionando perfeitamente.
 2 - Atualizamos o arquivo "DataContext.cs"
 3 - Fizemos uma migration
 4 - E atualizamos o banco de Dados
+
+*18_First_RelationShips
+1 - Adicionamos os personagens no modelo User.cs
+2 - Adicionomo o usuário dentro de Character.cs
+3 - Fizemos a migração
+4 - Atualizamos o banco de dados

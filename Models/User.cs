@@ -14,5 +14,8 @@ namespace Dotnet_RPG.Models
         public byte[] PasswordHash { get; set; }
 
         public byte[] PasswordSalt { get; set; }
+
+        ///Listas de Personagens do Usuário
+        public List<Character>? Characters { get; set; }
     }
 }
