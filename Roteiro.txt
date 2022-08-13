@@ -94,3 +94,7 @@ STATUS: Até aqui está funcionando perfeitamente.
 2 - Adicionomo o usuário dentro de Character.cs
 3 - Fizemos a migração
 4 - Atualizamos o banco de dados
+
+*19_Authentication_Repository
+1 - Dentro da Pasta Data criamos a interface "IAuthRepository"
+2 - E criamos também a classe "AuthRepository"
