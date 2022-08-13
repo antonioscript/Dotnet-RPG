@@ -74,3 +74,5 @@ STATUS: Até aqui está funcionando perfeitamente.
 2 - Modificamos o método Get no Service
 3 - Adicionamos no Banco de Dados alguns personagens manualmente
 
+*14_Post_Implementations
+1 - Modificamos o método Post no Service
