@@ -104,4 +104,10 @@ STATUS: Até aqui está funcionando perfeitamente.
 2 - Ciramos os métodos dentro de "AuthRepository" que foram passsados na interface
 3 - Criamos um método específico para senha
 
+*21_User_already_exists
+1 - Trabalhamos no método da existência do usuário dentro de "AuthRepository"
+2 - E modificamos o método Register
+3 - Agora é preciso adicionar essas informações no contrroller
+
+
 

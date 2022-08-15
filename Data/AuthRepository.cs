@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Dotnet_RPG.Data
 {
@@ -20,6 +21,14 @@ namespace Dotnet_RPG.Data
 
         public async Task<ServiceResponse<int>> Register(User user, string password)
         {
+            ServiceResponse<int> response = new ServiceResponse<int>();
+            if(await UserExists(user.UserName))
+            {
+                response.Success = false;
+                response.Message = "O Usuário já existe";
+                return response;
+            }
+
             CreatePasswordHash(password, out byte[] passwordHash, out byte[] passwordSalt);
 
             user.PasswordHash = passwordHash;
@@ -27,14 +36,17 @@ namespace Dotnet_RPG.Data
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
-            ServiceResponse<int> response = new ServiceResponse<int>();
             response.Data = user.Id;
             return response;
         }
 
-        public Task<bool> UserExists(string username)
+        public async Task<bool> UserExists(string username)
         {
-            throw new NotImplementedException();
+            if(await _context.Users.AnyAsync(u => u.UserName.ToLower() == username.ToLower()))
+            {
+                return true;
+            }
+            return false;
         }
 
 
