@@ -98,3 +98,10 @@ STATUS: Até aqui está funcionando perfeitamente.
 *19_Authentication_Repository
 1 - Dentro da Pasta Data criamos a interface "IAuthRepository"
 2 - E criamos também a classe "AuthRepository"
+
+*20_User_Registration
+1 - Dentro de "AuthRepository" Criamos um construtor e passamos como parâmetro o "DataContext"
+2 - Ciramos os métodos dentro de "AuthRepository" que foram passsados na interface
+3 - Criamos um método específico para senha
+
+
