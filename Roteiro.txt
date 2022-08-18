@@ -132,3 +132,11 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 4 - Adicionamos mais informações ao construtor
 5 - Fizemos o using de "using Microsoft.IdentityModel.Tokens;
 6 - Fizemos o using de "using System.IdentityModel.Tokens.Jwt;"
+
+*25_Authentication_Middleware
+1 -Adicionamos Autenticação no Progrma.cs
+2 - Instalamos o pacote "Microsoft.AspNetCore.Authentication.JwtBearer"
+3 - Colocamos o "Authorize" no "CharacterController.cs"
+4 - Instalamos o pacote "Swashbuckle.AspNetCore.Filters"
+5 - Modificamos a injeção do Swagger no "Program.cs" (builder.Services.AddSwaggerGen();)
+6 - Colocamos alguns decorator no "CharacterController"
