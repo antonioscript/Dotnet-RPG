@@ -118,4 +118,9 @@ STATUS: Até aqui está funcionando perfeitamente.
 6 - Injetamos em "Program.cs"
 STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 
-
+*23_UserLogin
+1 - Criamos um novo método para verificar a senha dentro de "AuthRepository"
+2 - Fizemos o corpo do método "Login()" em "AuthRepository"
+3 - Criamos o UserLoginDto.cs
+4 - Anexamos o método dentro do contrroller "AuthController"
+STATUS: Aqui é o programa está funcionando, mas tem um possível bug
