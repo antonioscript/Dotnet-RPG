@@ -124,3 +124,11 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 3 - Criamos o UserLoginDto.cs
 4 - Anexamos o método dentro do contrroller "AuthController"
 STATUS: Aqui é o programa está funcionando, mas tem um possível bug
+
+*24_JSON_Web_Tokens
+1 - Modificamos o arquivo "Appsettings.json"
+2 - Criamos o método de Token dentro de "AuthRepository"
+3 - Fizemos o using de "using System.Security.Claims;" em "AuthRepository"
+4 - Adicionamos mais informações ao construtor
+5 - Fizemos o using de "using Microsoft.IdentityModel.Tokens;
+6 - Fizemos o using de "using System.IdentityModel.Tokens.Jwt;"
