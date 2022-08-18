@@ -109,5 +109,13 @@ STATUS: Até aqui está funcionando perfeitamente.
 2 - E modificamos o método Register
 3 - Agora é preciso adicionar essas informações no contrroller
 
+*22_Authentication_Controller
+1 - Criamos um novo controller chamado "AuthController"
+2 - Criamos um construtor e passamos como parâmetro a interface "IAuthRepository"
+3 - Anexmos o método Register
+4 - Dentro de Dtos criamos uma nova pasta chamada User
+5 - E dentro dessa pasta User criamos uma arquivo "UserRegisterDto"
+6 - Injetamos em "Program.cs"
+STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 
 
