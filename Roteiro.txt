@@ -140,3 +140,8 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 4 - Instalamos o pacote "Swashbuckle.AspNetCore.Filters"
 5 - Modificamos a injeção do Swagger no "Program.cs" (builder.Services.AddSwaggerGen();)
 6 - Colocamos alguns decorator no "CharacterController"
+
+*26_Claims
+1 - Moditicamos o método Get no "CharacterController"
+2 - Moficamos o "ICharacterService"
+3 - Modificamos o "CharacterService"
