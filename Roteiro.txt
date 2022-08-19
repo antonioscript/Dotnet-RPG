@@ -162,3 +162,9 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 *30_Include
 1 - Atualizamos o método Update
 
+*31_One_To_One
+1 - Dentro de Models criamos o "Weapon.cs"
+2 - No model "Character.cs"
+3 - Atualizamos o DataContext
+4 - Fizemos a migração
+5 - Atualizamos o banco de dados

@@ -24,5 +24,8 @@ namespace Dotnet_RPG.Models
 
         //Usuário no qual o personagem pertence
         public User? User { get; set; }
+
+        //Arma do Personagem
+        public Weapon Weapon { get; set; }
     }
 }
