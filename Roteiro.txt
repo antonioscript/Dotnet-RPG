@@ -145,3 +145,12 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 1 - Moditicamos o método Get no "CharacterController"
 2 - Moficamos o "ICharacterService"
 3 - Modificamos o "CharacterService"
+
+*27_Get_All_Characters
+1 - Atualizamos o Program.cs
+2 - Colocamos o HttpContextAcessor no construtor do "CharacterService"
+3 - Atualizamos alguns métodos dentro do "CharacterService"
+4 - Atualizamos a interface ICharacterService
+5 - Atualizamos o Controller
+
+
