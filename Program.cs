@@ -1,6 +1,7 @@
 global using Dotnet_RPG.Models;
 using Dotnet_RPG.Data;
 using Dotnet_RPG.Services.CharacterService;
+using Dotnet_RPG.Services.WeaponService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -43,6 +44,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = false
         };
     });
+builder.Services.AddScoped<IWeaponService, WeaponService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

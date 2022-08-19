@@ -168,3 +168,15 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 3 - Atualizamos o DataContext
 4 - Fizemos a migração
 5 - Atualizamos o banco de dados
+
+*32_AddWeapons
+1 - Dentro de Service criamos a pasta chamada "WeaponService"
+2 - Criamos a interface IWeaponService
+3 - Criamos a classe WeaponService, juntos com o construtor, etc
+4 - Criamos uma pasta chamada "Weapon" dentro de Dtos
+5 - Criamos o "WeaponController"
+6 - Injetamos as modificações no "Program.cs"
+7 - Adicionamos a arma no arquivo "GetCharacterDto"
+8 - Criamos o arquivo "GetWeaponDto"
+9 - Atualizamos o "AutoMapperProfile"
+
