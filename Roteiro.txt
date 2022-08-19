@@ -158,3 +158,7 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 
 *29_Delete&GetSingle
 1 - Atualizamos o método "GetCharacterById" dentro de "CharacterService"
+
+*30_Include
+1 - Atualizamos o método Update
+
