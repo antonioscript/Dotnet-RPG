@@ -153,4 +153,6 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 4 - Atualizamos a interface ICharacterService
 5 - Atualizamos o Controller
 
+*28_Add_Characters
+1 - Atualizamos o Método "AddCharacter()" dentro de "CharacterService"
 
