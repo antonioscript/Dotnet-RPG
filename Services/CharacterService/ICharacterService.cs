@@ -22,5 +22,8 @@ namespace Dotnet_RPG.Services.CharacterService
 
         //Delete - Apagar Personagem
         Task<ServiceResponse<List<GetCharacterDto>>> DeleteCharacter(int id);
+
+        //Adicionar Skills
+        Task<ServiceResponse<GetCharacterDto>> AddCharacterSkill(AddCharacterSkillDto newCharacterSkill);
     }
 }

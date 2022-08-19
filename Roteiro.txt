@@ -191,3 +191,14 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 1 - Modificamos o arquivo DataContext criando uma espécie de método
 2 - Criamos uma migration
 3 - Atualizamos o banco de dados
+
+*35_AddSkillsCharacter
+1 - Na pasta Dtos, dentro da pasta character, adicionamos o "AddCharacterSkillDto"
+2 - Dentro de Dtos criamos a pasta Skill
+3 - Dentro da pasta Skill adicionamos "GetSkillDto"
+4 - Modificamos o arquivo "GetCharacterDto"
+5 - Atualizamos o "AutoMapperProfile"
+6 - Atualizamos a interface "ICharacterService"
+7 - Atualizamos o CharacterService
+8 - Atualizamos o Controller
+9 - Atualizamos o método GetCharacterById

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Dotnet_RPG.Dtos.Weapon;
+using Dotnet_RPG.Dtos.Skill;
 
 namespace Dotnet_RPG.Dtos.Character
 {
@@ -25,5 +26,9 @@ namespace Dotnet_RPG.Dtos.Character
 
         //Arma do personagem
         public GetWeaponDto Weapon { get; set; }
+
+        //Skills daquele personagem
+        public List<GetSkillDto> Skills { get; set; }
+
     }
 }
