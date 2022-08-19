@@ -30,5 +30,10 @@ namespace Dotnet_RPG.Models
 
         //Skills do personagem
         public List<Skill> Skills { get; set; }
+
+        //Parte da Luta
+         public int Fights { get; set; }
+        public int Victories { get; set; }
+        public int Defeats { get; set; }
     }
 }

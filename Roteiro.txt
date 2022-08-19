@@ -202,3 +202,14 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 7 - Atualizamos o CharacterService
 8 - Atualizamos o Controller
 9 - Atualizamos o método GetCharacterById
+
+*36_PrepareFight
+1 - No model Character, adicionamos mais 3 propriedades
+2 - Adicionamos as mesmas propriedade dentro de GetCharacterDto
+3 - Fizemos uma migração
+4 - Atualizamos o banco de dados
+5 - Na Pasta Service, criamos uma pasta chamada "FightService"
+6 - Criamos  a interface IFightService
+7 - E o serviço FightService
+8 - Criamos o FightController
+9 - Injetamos no Program.cs

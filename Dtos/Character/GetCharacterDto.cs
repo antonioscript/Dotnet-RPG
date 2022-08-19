@@ -29,6 +29,13 @@ namespace Dotnet_RPG.Dtos.Character
 
         //Skills daquele personagem
         public List<GetSkillDto> Skills { get; set; }
+         
+        //Parte da Luta
+        public int Fights { get; set; }
+        
+        public int Victories { get; set; }
+        
+        public int Defeats { get; set; }
 
     }
 }
