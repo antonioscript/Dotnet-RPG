@@ -27,5 +27,8 @@ namespace Dotnet_RPG.Models
 
         //Arma do Personagem
         public Weapon Weapon { get; set; }
+
+        //Skills do personagem
+        public List<Skill> Skills { get; set; }
     }
 }

@@ -180,3 +180,9 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 8 - Criamos o arquivo "GetWeaponDto"
 9 - Atualizamos o "AutoMapperProfile"
 
+*33_AddSkills
+1 - Em models, criamos um novo modelo chamado "Skills"
+2 - Entramos no model "Character" e adicionamos a Skill
+3 - Criamos a tabela no DataContext
+4 - Adicionamos a migração
+5 - Atualizamos o banco de dados
