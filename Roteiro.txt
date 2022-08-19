@@ -156,3 +156,5 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 *28_Add_Characters
 1 - Atualizamos o Método "AddCharacter()" dentro de "CharacterService"
 
+*29_Delete&GetSingle
+1 - Atualizamos o método "GetCharacterById" dentro de "CharacterService"
