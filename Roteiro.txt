@@ -186,3 +186,8 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 3 - Criamos a tabela no DataContext
 4 - Adicionamos a migração
 5 - Atualizamos o banco de dados
+
+*34_Seeding
+1 - Modificamos o arquivo DataContext criando uma espécie de método
+2 - Criamos uma migration
+3 - Atualizamos o banco de dados
