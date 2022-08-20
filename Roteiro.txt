@@ -213,3 +213,10 @@ STATUS: Aqui é o programa está funcionando, mas tem um possível bug
 7 - E o serviço FightService
 8 - Criamos o FightController
 9 - Injetamos no Program.cs
+
+*37_Attack
+1 - Criamos uma pasta dentro de Dto chamada "WeaponAttackDto"
+2 - Na mesma pasta criamos "AttackResultDto"
+3 - Criamos o contrutor dentro de FightService
+4 - Criamos o método de Ataque dentro de IFightService
+5 - Colocamos no FightController
