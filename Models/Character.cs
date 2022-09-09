@@ -30,5 +30,6 @@ namespace Dotnet_RPG.Models
 
         //Skills do personagem
         public List<Skill> Skills { get; set; }
+        //Inumerable
     }
 }
